@@ -3,9 +3,9 @@ import telebot
 import requests
 from bs4 import BeautifulSoup
 
-bot = telebot.TeleBot('6636397133:AAFQB_gbE0KZevS8-8GEbCgrJkEtVMbwTSY')
+bot = telebot.TeleBot('token')
 
-id_channel = '6636397133'
+id_channel = '@id_channel'
 
 last_processed_news = ''
 
